@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetFighter-UNIR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/arcade.png">
+</head>
+
+<body>
+
+    <!-- Título principal -->
+    <h1>To live is to fight, to fight is to live!</h1>
+
+    <!-- Tabla de personajes -->
+    <div class="tabla-container">
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <th colspan="4" class="cabecera">STREET FIGHTER</th>
+                </tr>
+            </thead>
+
+            <tr>
+                <td><img src="img/ken.png" alt="Ken">
+                    <p>KEN</p>
+                </td>
+                <td><img src="img/chunli.png" alt="Chun Li">
+                    <p>CHUN LI</p>
+                </td>
+                <td><img src="img/zangief.png" alt="Zangief">
+                    <p>ZANGIEF</p>
+                </td>
+                <td><img src="img/dhalsim.png" alt="Dhalsim">
+                    <p>DHALSIN</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="img/ryu.png" alt="ryu">
+                    <p>RYU</p>
+                </td>
+                <td><img src="img/EHonda.png" alt="E Honda">
+                    <p>E HONDA</p>
+                </td>
+                <td><img src="img/Blanka.png" alt="Blanka">
+                    <p>BLANKA</p>
+                </td>
+                <td><img src="img/Guille.png" alt="Guille">
+                    <p>GUILLE</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="img/THawk.png" alt="T Hawk">
+                    <p>T HAWK</p>
+                </td>
+                <td><img src="img/Feilong.png" alt="Feilong">
+                    <p>FEILONG</p>
+                </td>
+                <td><img src="img/DeeJay.png" alt="Dee Jay">
+                    <p>DEE JAY</p>
+                </td>
+                <td><img src="img/Cammy.png" alt="Cammy">
+                    <p>CAMMY</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="img/Balrog.png" alt="Balrog">
+                    <p>BALROG</p>
+                </td>
+                <td><img src="img/Vega.png" alt="Vega">
+                    <p>VEGA</p>
+                </td>
+                <td><img src="img/Sagat.png" alt="Sagat">
+                    <p>SAGAT</p>
+                </td>
+                <td><img src="img/MBison.png" alt="MBison">
+                    <p>M BISON</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Formulario de inscripción -->
+    <h2>Formulario de Inscripción para jugar a Street Fighter</h2>
+    <form class="formulario">
+        <fieldset>
+            <legend class="legend">DATOS PERSONALES</legend>
+            <label for="nombre" class="space">Nombre:</label>
+            <input class="space" type="text" id="nombre" required>
+
+            <label for="apellidos" class="space">Apellidos:</label>
+            <input class="space" type="text" id="apellidos" required>
+
+            <label for="calle" class="space">Dirección postal:</label>
+            <input type="text" id="calle" placeholder="Calle" required>
+            <input type="text" id="numero" placeholder="Nº" required>
+            <input type="text" id="piso" placeholder="Piso" required>
+            <input class="space" type="text" id="codigoPostal" placeholder="Cód. Postal" required>
+            <input class="space" type="text" id="ciudad" placeholder="Ciudad" required>
+
+            <label for="nick" class="space">Nick:</label>
+            <input class="space" type="text" id="nick" required>
+
+            <label for="correo" class="space">Correo Electrónico:</label>
+            <input class="space" type="email" id="correo" required>
+        </fieldset>
+
+        <fieldset>
+            <legend class="legend">SEXO USUARIO</legend>
+
+            <label for="hombre">
+                <input type="radio" id="hombre" name="sexo" value="hombre"> Hombre
+            </label>
+
+            <label for="mujer">
+                <input type="radio" id="mujer" name="sexo" value="mujer"> Mujer
+            </label>
+
+            <label for="otro">
+                <input type="radio" id="otro" name="sexo" value="otro"> Prefiero No Decir
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <label for="fecha" class="fecha">Fecha nacimiento</label>
+            <input class="fecha" type="date" id="fecha" required>
+        </fieldset>
+
+        <fieldset>
+            <legend class="legend">PERSONAJES</legend>
+            <label for="personaje" class="personajes">Selecciona el personaje</label>
+            <input class="personajes" type="text" id="personaje">
+        </fieldset>
+
+        <fieldset>
+            <legend class="legend">COMENTARIOS</legend>
+            <textarea id="comentarios" rows="4" cols="50"></textarea>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+
+</body>
+
+</html>

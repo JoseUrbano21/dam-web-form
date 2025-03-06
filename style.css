@@ -1,0 +1,123 @@
+/* Uso de @font-face para cargar la tipografía "Street" desde el archivo local */
+@font-face {
+    font-family: "Street";
+    src: url("street.otf") format("opentype");
+}
+
+body {
+    background-image: url("img/fondo2.jpg");
+    background-size: cover;
+}
+
+/* Título principal */
+h1 {
+    font-family: "Street";
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+}
+
+/* Tabla de personajes */
+.tabla-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tabla {
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+}
+
+.tabla td {
+    width: 40px;
+    height: 45px;
+    font-family: "Street";
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+/* Cabecera de la tabla */
+thead .cabecera {
+    background: url("img/fondocabecera.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: "Street";
+}
+
+/* Formulario */
+.formulario {
+    width: 600px;
+    height: 1100px;
+    margin: 20px auto;
+    background-color: black;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    color: white;
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+h2 {
+    font-family: "Street";
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+}
+
+.legend {
+    font-family: "Street";
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+    text-align: left;
+}
+
+fieldset {
+    margin-bottom: 25px;
+}
+
+.space {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+}
+
+.fecha {
+    display: inline;
+}
+
+.personajes {
+    display: inline;
+}
+
+textarea {
+    width: 560px;
+    height: 100px;
+}
+
+/* Botones */
+button {
+    width: 200px;
+    height: 50px;
+    font-family: "Street";
+    font-size: 18px;
+    color: white;
+    background-color: crimson;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-top: 10px;
+}
