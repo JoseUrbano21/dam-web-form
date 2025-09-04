@@ -10,4 +10,4 @@
 ## 📸 Vista previa
 Formulario de inscripción con personajes de la saga Street Fighter.
 
-<img src="screenshot_1.png" width="400">   <img src="screenshot_2.png" width="400">
+<img src="screenshot_1.png" width="400" height="400">   <img src="screenshot_2.png" width="400" height="400">
