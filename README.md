@@ -4,8 +4,7 @@
 ✍️ Entrega: creación de un formulario web al estilo **Street Fighter**.
 
 ## 🛠️ Tecnologías
-- HTML5
-- CSS3
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
 
 ## 📸 Vista previa
 Formulario de inscripción con personajes de la saga Street Fighter.
