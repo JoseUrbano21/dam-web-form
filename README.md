@@ -1,4 +1,4 @@
-# Street Fighter Form
+# Formulario Street Fighter
 
 📚 Curso DAM – Lenguaje de Marcas  
 ✍️ Entrega: creación de un formulario web al estilo **Street Fighter**.
